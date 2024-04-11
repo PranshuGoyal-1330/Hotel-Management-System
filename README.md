@@ -8,4 +8,4 @@ Tech Stack: MERN
 
 CSS Framework: Material UI
 
-Loom Video: https://www.loom.com/share/ddf5fe6fbc6a4c66b297e5382e218db3
+Video: https://www.loom.com/share/ddf5fe6fbc6a4c66b297e5382e218db3
