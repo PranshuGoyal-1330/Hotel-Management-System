@@ -72,7 +72,7 @@ const Footer = styled(Box)`
 	align-items: center;
 	justify-content: center;
 	justify-content: space-between;
-	padding: 10px 80px;
+	padding: 10px 30px;
 `;
 
 const FooterLeft = styled(Box)``;

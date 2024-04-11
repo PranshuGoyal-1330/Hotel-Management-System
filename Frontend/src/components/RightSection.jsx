@@ -37,7 +37,7 @@ import Countdown from 'react-countdown';
 
 const RightWrapper = styled(Box)`
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between
 `;
 
 const AddTaskButton = styled(Box)(({theme})=>({
@@ -60,7 +60,7 @@ const RightHeader=styled(Box)(({theme})=>({
 	fontSize:"25px",
 	fontWeight:"500",
 	[theme.breakpoints.down('md')]:{
-		padding:"0px 30px"
+		padding:"0px 20px"
 	}
 }))
 	
@@ -71,7 +71,7 @@ const StatusButtonWrapper=styled(Box)(({theme})=>({
 	alignItems: 'center', 
 	margin: '20px 0px',
 	[theme.breakpoints.down('md')]:{
-		padding:"0px 30px",
+		padding:"0px 20px",
 	}
 }))
 	
@@ -122,7 +122,7 @@ const Card=styled(Box)(({theme})=>({
 	borderRadius: "14px",
 	[theme.breakpoints.down('md')]:{
 		// marginRight:"30px"
-		margin:"20px 30px 10px 30px",
+		margin:"20px 10px 10px 10px",
 	},
 }))
 	
