@@ -72,14 +72,14 @@ const Footer = styled(Box)`
 	align-items: center;
 	justify-content: center;
 	justify-content: space-between;
-	padding: 10px 30px;
+	padding: 10px 60px;
 `;
 
 const FooterLeft = styled(Box)``;
 
 const FooterCenter = styled(Box)`
 	position: relative;
-	bottom: 35px;
+	bottom: 38px;
 `;
 
 const FooterRight = styled(Box)``;
@@ -101,8 +101,8 @@ const AddTaskButton = styled(Box)`
 
 const AvatarAdd=styled(Avatar)`
 	background-color: #5f69c7;
-	width: 50px;
-	height: 50px;
+	width: 56px;
+	height: 56px;
 	transition: 0.2s ease;
 	&:hover{
 		background-color: #4754c6;

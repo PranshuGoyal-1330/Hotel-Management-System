@@ -60,7 +60,7 @@ const RightHeader=styled(Box)(({theme})=>({
 	fontSize:"25px",
 	fontWeight:"500",
 	[theme.breakpoints.down('md')]:{
-		padding:"0px 20px"
+		padding:"0px 10px"
 	}
 }))
 	
@@ -71,7 +71,7 @@ const StatusButtonWrapper=styled(Box)(({theme})=>({
 	alignItems: 'center', 
 	margin: '20px 0px',
 	[theme.breakpoints.down('md')]:{
-		padding:"0px 20px",
+		padding:"0px 10px",
 	}
 }))
 	

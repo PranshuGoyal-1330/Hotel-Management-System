@@ -7,7 +7,7 @@ const Component=styled(Box)(({theme})=>({
 	padding: "20px 40px",
     borderBottom: "1px solid #b8b8b8",
 	[theme.breakpoints.down('md')]:{
-		padding:"20px 20px"
+		padding:"20px 10px"
 	}
 }))
 
