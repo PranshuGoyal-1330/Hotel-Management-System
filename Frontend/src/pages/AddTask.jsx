@@ -22,7 +22,7 @@ const Wrapper=styled(Box)`
 `
 
 const Heading=styled(Box)`
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
     font-weight: 500;
 `
@@ -110,7 +110,7 @@ const AddTask = () => {
             received_time:time
         },
         taskType:'',
-        task:[],
+        task:["Routine Cleaning"],
     })
     console.log(data);
 
@@ -150,7 +150,7 @@ const AddTask = () => {
 					<Input type="text" name='name' onChange={handleChange} required/>
 
                     <Text>Room No.</Text>
-					<Input type="text" name='roomNumber' onChange={handleChange}/>
+					<Input type="text" name='roomNumber' onChange={handleChange} required/>
                     
                     <Text>Instructions</Text>
 					<Input type="text" name='instructions' onChange={handleChange}/>
@@ -166,7 +166,7 @@ const AddTask = () => {
 					{/* <Input type="datetime-local" name='dateTime' onChange={handleDateTime} inputProps={{min:today}} required/> */}
                     
                     <FormGroup>
-                        <FormControlLabel control={<Checkbox size='small' />} value="Routine Cleaning" onChange={handleCheckbox} label="Routine Cleaning" />
+                        <FormControlLabel control={<Checkbox size='small' defaultChecked disabled />} value="Routine Cleaning" onChange={handleCheckbox} label="Routine Cleaning" />
                         <CheckBoxWrapper>
                             <FormControlLabel control={<Checkbox size='small' />} value="Shampoo" onChange={handleCheckbox} label="Shampoo" />
                             <FormControlLabel control={<Checkbox size='small'/>} value="Conditioner" onChange={handleCheckbox} label="Conditioner" />

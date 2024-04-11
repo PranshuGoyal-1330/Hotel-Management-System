@@ -441,7 +441,7 @@ const RightSection = ({ qStatus }) => {
 											</NameWrapper>
 										)} */}
 
-										{val.status.includes('Complaint') && (
+										{(val.status.includes('Complaint') || val.status.includes('On - Time') )&& (
 											<RatingWrapper
 												direction="row"
 												spacing={0.5}
