@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const URL="http://localhost:5000/api"
+// const URL="http://localhost:5000/api"
+const URL="https://tender-bass-sunbonnet.cyclic.app/api"
 
 export const addTasks=(data)=>{
     try{
