@@ -9,5 +9,6 @@ body,html{
   padding: 0;
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 

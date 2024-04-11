@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 const Container=styled(Box)`
-    padding: 60px 20px;
+    padding: 60px 10px;
     display: flex;
     align-items: center;
     justify-content: center;

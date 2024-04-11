@@ -70,6 +70,7 @@ const StatusButtonWrapper=styled(Box)(({theme})=>({
 	flexWrap:"wrap",
 	alignItems: 'center', 
 	margin: '20px 0px',
+	
 	[theme.breakpoints.down('md')]:{
 		padding:"0px 10px",
 	}
@@ -315,6 +316,8 @@ const RightSection = ({ qStatus }) => {
 		}
 	};
 
+	
+
 	return (
 		<>
 			<RightWrapper>
@@ -332,7 +335,7 @@ const RightSection = ({ qStatus }) => {
 					return (
 						<>
 							<Link to={`/tasks/${val}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-								<StatusButton>{val}</StatusButton>
+								<StatusButton >{val}</StatusButton>
 							</Link>
 						</>
 					);
