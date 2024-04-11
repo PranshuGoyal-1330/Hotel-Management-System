@@ -1,0 +1,1 @@
+export const statusData=["Not Accepted","Ongoing","Scheduled","Completed","Delayed","On - Time","Complaint"];
